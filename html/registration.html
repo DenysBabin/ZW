@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/header.css">
+    <title>Registration</title>
+</head>
+<body>
+
+  <header>
+    <header>
+      <nav> <!-- Меню -->
+          <ul class="hr">
+              <li><a href="./index.html">Main</a></li>
+              <li><a href="./profile.html">Profile</a></li>
+              <li><a href="./registration.html">Registration</a></li>
+              <li><a href="./login.html">Login</a></li>
+              <li><a href="./addMemsPage.html">AddMem</a></li>
+          </ul>
+      </nav>
+    </header>
+    <form action="#">
+        <h1>Registration</h1>
+        <p><i>Please fill out the form. Required fields are marked</i><em>*</em></p>
+        <fieldset>
+          <legend>Contact Information </legend>
+            <label for="name">Name <em>*</em></label>
+            <input id="name"><br>
+            <label for="telephone">Phone</label>
+            <input id="telephone"><br>
+            <label for="email">Email <em>*</em></label>
+            <input id="email"><br>
+        </fieldset>
+        <fieldset>
+          <legend>Personal Information</legend>
+            <label for="age">Age<em>*</em></label>
+            <input id="age"><br>
+            <label for="gender">Sex</label>
+            <select id="gender">
+              <option value="female">Male</option>
+              <option value="male">Female</option>
+            </select><br>
+            <label for="comments">Your best qualities</label>
+            <textarea id="comments"></textarea>
+        </fieldset>
+      
+        <fieldset>
+          <legend>Categories of interests</legend>
+          <label for="cat"><input id="cat" type="checkbox"> Cats</label>
+          <label for="anaconda"><input id="anaconda" type="checkbox"> Anaconda</label>
+          <label for="human"><input id="human" type="checkbox"> Peoples</label>
+          <label for="elephant"><input id="elephant" type="checkbox"> Elephant</label>
+          <label for="wildebeest"><input id="wildebeest" type="checkbox"> Wildebeest</label>
+          <label for="pigeon"><input id="pigeon" type="checkbox"> Pigeon</label>
+          <label for="crab"><input id="crab" type="checkbox"> Crab</label>
+        </fieldset>
+        <p><input type="submit" value="Registration" onclick="registraion()"></p>
+      </form>
+
+      <script src="../js/registration.js"></script>
+</body>
+</html>
+

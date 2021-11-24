@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/header.css">
+    <title>AddMem</title>
+</head>
+<body>
+
+    <header>
+      <nav> <!-- Меню -->
+          <ul class="hr">
+              <li><a href="./index.html">Main</a></li>
+              <li><a href="./profile.html">Profile</a></li>
+              <li><a href="./registration.html">Registration</a></li>
+              <li><a href="./login.html">Login</a></li>
+              <li><a href="./addMemsPage.html">AddMem</a></li>
+          </ul>
+      </nav>
+    </header>
+      <form action="#">
+          <h1>Add Mem</h1>
+          <fieldset>
+            <legend>Mem description</legend>
+              <label for="name">Name</label>
+              <input id="name"><br>
+              <label for="category">Category</label>
+              <input id="category"><br>
+          </fieldset>
+          <fieldset>
+            <legend>Upload Image</legend>
+                Here do upload image
+          </fieldset>
+
+          <p><input type="submit" value="Add Mem" onclick="addMem()"></p>
+        </form>
+
+        <script src="../js/addMemsPage.js"></script>
+  </body>
+</html>
